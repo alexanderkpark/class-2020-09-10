@@ -37,7 +37,7 @@ TEST1
 ```{r, echo = FALSE}
 ggplot(data = x, aes(mean_age))+
   geom_histogram(bins = 25) +
-  xlim(30, 50)
+  xlim(30, 55)
 ```
 
 
