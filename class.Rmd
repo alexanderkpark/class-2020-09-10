@@ -37,7 +37,7 @@ Today's class will be based on the first chapter of the textbook, which covers h
 ```{r, echo = FALSE}
 ggplot(data = x, aes(mean_age))+
   geom_histogram(bins = 25) +
-  xlim(35, 50)
+  xlim(30, 50)
 ```
 
 
